@@ -20,18 +20,18 @@ class MyAlertBox extends StatelessWidget {
       backgroundColor: Colors.grey.shade900,
       content: TextField(
         controller: controller,
-        style: TextStyle(color: Colors.white),
+        style: const TextStyle(color: Colors.white),
         decoration: InputDecoration(
             hintText: hintText,
             hintStyle: TextStyle(
               color: Colors.grey.shade500,
             ),
-            enabledBorder: OutlineInputBorder(
+            enabledBorder: const OutlineInputBorder(
               borderSide: BorderSide(
                 color: Colors.white,
               ),
             ),
-            focusedBorder: OutlineInputBorder(
+            focusedBorder: const OutlineInputBorder(
               borderSide: BorderSide(
                 color: Colors.green,
               ),
